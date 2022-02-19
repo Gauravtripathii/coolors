@@ -1,0 +1,55 @@
+.palette {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+}
+.palette-sm {
+  width: 75%;
+}
+
+.palette > .color-card {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.palette > .color-card > p {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  cursor: default;
+}
+
+.palette > .color-card > .color-functions {
+  /* display: none; */
+  cursor: pointer;
+}
+
+.palette > .color-card > .color-functions > p {
+  text-align: center;
+}
+
+.palette > .color-card > .color-functions > p > img {
+  height: 30px;
+}
+
+
+
+/* menu bar */
+
+.nav-menu {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  width: 25%;
+  height: 75%;
+  display: none;
+}
+.active {
+  display: block;
+}
